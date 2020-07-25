@@ -138,7 +138,7 @@ private int rob(int[] nums, int first, int last) {
 ```
 
 ## 4. 信件错排
-
+[牛客](https://www.nowcoder.com/questionTerminal/95e35e7f6ad34821bc2958e37c08918b?orderByHotValue=2&page=1&onlyReference=true)
 题目描述：有 N 个 信 和 信封，它们被打乱，求错误装信方式的数量。
 
 定义一个数组 dp 存储错误方式数量，dp[i] 表示前 i 个信和信封的错误方式数量。假设第 i 个信装到第 j 个信封里面，而第 j 个信装到第 k 个信封里面。根据 i 和 k 是否相等，有两种情况：
